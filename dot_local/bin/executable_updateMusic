@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync -P -r --update -h --delete --times --stats -i friso@odroid-local:/mnt/storage/Music/ ~/Music
