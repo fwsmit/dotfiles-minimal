@@ -1,0 +1,9 @@
+[user]
+	email = fw.smit01@gmail.com
+	name = Friso Smit
+[core]
+	editor = nvim
+[pull]
+	rebase = true
+[push]
+	followTags = true
