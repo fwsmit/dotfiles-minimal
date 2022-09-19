@@ -1,3 +1,6 @@
+-- Modern neovim setup inspired by https://tkg.codes/guide-to-modern-neovim-setup-2021/
+
+
 -- Set highlight on search. This will remove the highlight after searching for text.
 vim.o.hlsearch = false
 
@@ -20,3 +23,7 @@ vim.o.smartcase = true
 
 
 require("plugins")
+require("keybindings")
+
+require("plugs.treesitter")
+require("plugs.cmp")
