@@ -6,8 +6,8 @@ set shiftwidth=8
 set smartindent
 set expandtab
 
-autocmd BufEnter *.qml setlocal filetype=qml
+autocmd BufEnter *.qml setlocal filetype=qmljs
 
-autocmd FileType qml setlocal shiftwidth=4
+autocmd FileType qmljs setlocal shiftwidth=4
 
 let mapleader = '\'
