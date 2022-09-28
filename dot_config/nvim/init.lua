@@ -27,3 +27,4 @@ require("keybindings")
 vim.cmd("source ~/.config/nvim/vimscript.vim")
 
 require("plugs.treesitter")
+require("plugs.lsp")
