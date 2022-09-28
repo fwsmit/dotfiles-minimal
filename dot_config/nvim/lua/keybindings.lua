@@ -6,8 +6,7 @@ local key_mapper = function(mode, key, result)
     {noremap = true, silent = true}
   )
 end
-key_mapper('', '<up>', '<nop>')
-key_mapper('', '<down>', '<nop>')
-key_mapper('', '<left>', '<nop>')
-key_mapper('', '<right>', '<nop>')
 key_mapper('n', [[\s]], ':wa<CR>')
+key_mapper('n', [[\x]], ':conf qa<CR>')
+key_mapper('n', [[\q]], ':conf q<CR>')
+key_mapper('n', '<F2>', ':NERDTreeToggle<CR>')
