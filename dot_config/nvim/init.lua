@@ -25,3 +25,5 @@ vim.o.smartcase = true
 require("plugins")
 require("keybindings")
 vim.cmd("source ~/.config/nvim/vimscript.vim")
+
+require("plugs.treesitter")
