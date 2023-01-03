@@ -1,5 +1,6 @@
 include "%L"
 
+<Multi_key> <I> <J> : "ĳ"    U0133    # Lange IJ
 # GREEK CAPITAL LETTERS
 <Multi_key> <G> <A> : "Α"    U0391    # GREEK CAPITAL LETTER ALPHA
 <Multi_key> <G> <B> : "Β"    U0392    # GREEK CAPITAL LETTER BETA
