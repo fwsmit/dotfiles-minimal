@@ -1,2 +1,2 @@
 -- C++ and others language server
-require'lspconfig'.sourcekit.setup{}
+--require'lspconfig'.sourcekit.setup{}
