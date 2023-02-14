@@ -23,4 +23,6 @@ return require('packer').startup(function(use)
         -- Switch to alternate file quickly
         use 'luchermitte/lh-vim-lib' -- Dependency of alternate-lite
         use 'luchermitte/alternate-lite'
+
+        use 'tpope/vim-fugitive'
 end)
